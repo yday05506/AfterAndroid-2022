@@ -7,9 +7,34 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="버튼 1"/>
+        android:textSize="30sp"
+        android:text="textSize 속성"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#4A8A0B"
+        android:text="textColor 속성"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:text="textStyle 속성"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:textSize="30sp"
+        android:text="textface 속성"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="30sp"
+        android:text="singleLine 속성 singleLine 속성 singleLine 속성 singleLine 속성 singleLine 속성 "/>
 
 </LinearLayout>
